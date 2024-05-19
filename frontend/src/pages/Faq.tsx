@@ -40,24 +40,28 @@ function Faq(){
 
 const data=[
   {
-      question:'1.first question',
-      answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed animi porro repellat aspernatur! Impedit consequuntur quia, vel nam iste velit voluptas hic similique ducimus sit rem, obcaecati consectetur delectus inventore.'
-  },
-  {
-    question:'2.second question',
+    id:1,
+    question:'1.Can I get a refund if I cant attend an event?',
     answer:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed animi porro repellat aspernatur! Impedit consequuntur quia, vel nam iste velit voluptas hic similique ducimus sit rem, obcaecati consectetur delectus inventore.'
-  },
-  {
-    question:'3.Third question',
-    answer:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed animi porro repellat aspernatur! Impedit consequuntur quia, vel nam iste velit voluptas hic similique ducimus sit rem, obcaecati consectetur delectus inventore.'
-  },
-  {
-    question:'4.Fourth question',
-    answer:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed animi porro repellat aspernatur! Impedit consequuntur quia, vel nam iste velit voluptas hic similique ducimus sit rem, obcaecati consectetur delectus inventore.'
-  },
+    'Refund policies vary by event. Please check the specific events refund policy on its page. If refunds are available, follow the instructions provided there. For additional assistance, contact our customer support team.'
+},
+{
+  id:2,
+  question:'2. Is there a mobile app for the event website?',
+  answer:
+  'Yes, our event website has a mobile app available for both iOS and Android devices. You can download it from the App Store or Google Play Store.'
+},
+{
+  id:3,
+  question:'3. How do I contact customer support?',
+  answer:
+  'You can contact our customer support team via the contact form on our website, by phone, or through our live chat feature during business hours. Our contact information is available on the "Contact Us" page.'
+},
+{
+  id:4,
+  question:'4. Can I volunteer at an event?',
+  answer:
+  'Volunteer opportunities vary by event. Check the specific event page for more details or contact the event organizer directly for more information.'
+},
 ]
 export default Faq

@@ -10,7 +10,7 @@ function App() {
   return (
     <>
         <Nav />
-        <Header eventname="Event Name" state1="Organized by:" state2="Team ChodeShack" />
+        <Header eventname="Event Name" state1="Organized by:" state2="Team CodeShack" />
         <Body date="21/2/24" time="1:30PM"/>
         <Photo />
         <Faq />
